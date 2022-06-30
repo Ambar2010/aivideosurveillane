@@ -29,7 +29,7 @@ function gotResults(error, results) {
         console.error(error);
     }
     console.log(results);
-    object = results;
+    objects = results;
 }
 function draw() {
     image(video, 0, 0, 480, 380);
